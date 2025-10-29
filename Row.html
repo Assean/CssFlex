@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>Flex 範例 2：橫向排列</title>
+<style>
+.container {
+  display: flex; /* 預設為 row 水平排列 */
+  background-color: #ddd;
+  padding: 20px;
+}
+.item {
+  background-color: #2196F3;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  flex: 1; /* 平均分配寬度 */
+  text-align: center;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">項目 1</div>
+    <div class="item">項目 2</div>
+    <div class="item">項目 3</div>
+  </div>
+</body>
+</html>
